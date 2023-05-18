@@ -6,7 +6,7 @@
 using namespace std;
 
 vector<int> findMaxNetworkQuality(vector<vector<int>>& towers, int radius) {
-    int maxQuality = INT_MIN;
+    int maxQuality;
     vector<int> maxCoord;
     vector<int> maxLexicoCoord;
 
